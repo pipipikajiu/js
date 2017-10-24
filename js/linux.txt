@@ -14,3 +14,13 @@ X 可执行 数值为1
 第五六七个字符“rw-”表示当前所属组的权限。      所以用数值表示为4+2=6
 第八九十个字符“r--”表示其他用户权限。              所以用数值表示为2
 所以操作此文件的权限用数值表示为662
+
+
+
+
+//启动nginx
+systemctl start nginx  
+//使用systemctl设置开机启动
+systemctl enable nginx  
+//重启Nginx
+systemctl restart nginx
